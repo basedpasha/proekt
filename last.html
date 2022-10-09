@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>Сортировка мусора | Проектная работа</title>
+    <meta name="description" content="Сортировка мусора | Проектная работа" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="Сортировка мусора | Проектная работа" />
+    <meta property="og:description" content="" />
+    <meta
+      property="og:image"
+      content="https://259506.selcdn.ru/sites-static/site663855/e7689dda-a2f1-467e-b0c9-f84810c6e829/e7689dda-a2f1-467e-b0c9-f84810c6e829-3577039.jpeg"
+    />
+
+    <meta name="twitter:title" content="Сортировка мусора | Проектная работа" />
+    <meta name="twitter:description" content="" />
+    <meta
+      name="twitter:image"
+      content="https://259506.selcdn.ru/sites-static/site663855/e7689dda-a2f1-467e-b0c9-f84810c6e829/e7689dda-a2f1-467e-b0c9-f84810c6e829-3577039.jpeg"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://259506.selcdn.ru" />
+
+    <link
+      rel="stylesheet"
+      href="https://e26f86a1-a349-40e0-9864-90f0278f7cc5.selcdn.net/tb/0.1.470/style/styles-core.css"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://259506.selcdn.ru/sites-static/site663855/df4a11e1-0e09-4d46-a783-5b5fffaa3d05/df4a11e1-0e09-4d46-a783-5b5fffaa3d05-2748255.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://259506.selcdn.ru/sites-static/site663855/df4a11e1-0e09-4d46-a783-5b5fffaa3d05/df4a11e1-0e09-4d46-a783-5b5fffaa3d05-2748254.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="120x120"
+      href="https://259506.selcdn.ru/sites-static/site663855/df4a11e1-0e09-4d46-a783-5b5fffaa3d05/df4a11e1-0e09-4d46-a783-5b5fffaa3d05-2748256.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="120x120"
+      href="https://259506.selcdn.ru/sites-static/site663855/df4a11e1-0e09-4d46-a783-5b5fffaa3d05/df4a11e1-0e09-4d46-a783-5b5fffaa3d05-2748256.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="180x180"
+      href="https://259506.selcdn.ru/sites-static/site663855/df4a11e1-0e09-4d46-a783-5b5fffaa3d05/df4a11e1-0e09-4d46-a783-5b5fffaa3d05-2748257.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="180x180"
+      href="https://259506.selcdn.ru/sites-static/site663855/df4a11e1-0e09-4d46-a783-5b5fffaa3d05/df4a11e1-0e09-4d46-a783-5b5fffaa3d05-2748257.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family&#x3D;Ubuntu&amp;subset&#x3D;all&amp;display&#x3D;swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family&#x3D;Open+Sans&amp;subset&#x3D;all&amp;display&#x3D;swap"
+    />
+  </head>
+
+  <body
+    class="sb-body sb-body_with-footer font-ubuntu-opensans sb-content-size_m sb-buttons-border_round"
+  >
+    <div class="site-wrapper" tabindex="0">
+      <section
+        data-type="slider"
+        id="yzcmumw"
+        class="s-slider-type-2 sb-text-dark sb-padding-top_s sb-padding-bottom_s"
+      >
+        <link
+          id="slider-type-2"
+          rel="stylesheet"
+          href="https://e26f86a1-a349-40e0-9864-90f0278f7cc5.selcdn.net/tb/0.1.470/style/blocks/slider-type-2.css"
+        />
+        <div class="sb-background" style="background: #fff"></div>
+        <div class="sb-container s-slider-type-2__container">
+          <div class="sb-row s-slider-type-2__row-text">
+            <div
+              class="s-slider-type-2__col-text sb-col_lg-7 sb-col_md-7 sb-col_sm-12 sb-col_xs-12"
+            >
+              <h2
+                class="s-slider-type-2__title sb-hidden-tablet sb-font-h2 sb-font-title sb-m-12-bottom"
+              >
+                Сортировка мусора: почему это важно<span
+                  style="color: rgb(225, 95, 65)"
+                >
+                </span
+                ><br />
+                <div>
+                  <span style="color: rgb(225, 95, 65)"><br /></span>
+                </div>
+              </h2>
+              <div class="sb-hidden-tablet sb-font-p3">
+                Проектная работа Свирщевского Павла 11Г
+              </div>
+              <h2
+                class="s-slider-type-2__title sb-hidden-desktop-min sb-font-h2 sb-font-title sb-m-12-bottom"
+              >
+                Сортировка мусора: почему это важно<span
+                  style="color: rgb(225, 95, 65)"
+                >
+                </span
+                ><br />
+                <div>
+                  <span style="color: rgb(225, 95, 65)"><br /></span>
+                </div>
+              </h2>
+              <div
+                class="s-slider-type-2__subtitle sb-hidden-desktop-min sb-m-14-bottom sb-font-p3"
+              >
+                Проектная работа Свирщевского Павла 11Г
+              </div>
+            </div>
+            <div
+              class="s-slider-type-2__col-description sb-col_lg-5 sb-col_md-5 sb-col_sm-12 sb-col_xs-12"
+            >
+              <div
+                class="s-slider-type-2__description sb-hidden-tablet sb-font-p2"
+              >
+                В России, по данным на 2020 год, перерабатывается только 7%
+                твердых коммунальных отходов, а все остальное попадает на свалки
+                или сжигается. Решить проблему помогает раздельный сбор отходов
+                (РСО). Он предусматривает разделение мусора на несколько
+                полезных фракций: бумагу, пластик, стекло, металл, — которые
+                затем используются для выпуска новой продукции.<br />
+              </div>
+              <div
+                class="s-slider-type-2__description sb-hidden-desktop-min sb-font-p2"
+              >
+                В России, по данным на 2020 год, перерабатывается только 7%
+                твердых коммунальных отходов, а все остальное попадает на свалки
+                или сжигается. Решить проблему помогает раздельный сбор отходов
+                (РСО). Он предусматривает разделение мусора на несколько
+                полезных фракций: бумагу, пластик, стекло, металл, — которые
+                затем используются для выпуска новой продукции.<br />
+              </div>
+            </div>
+          </div>
+          <div class="s-slider-type-2__wrapper">
+            <div class="s-slider-type-2__main">
+              <div class="s-slider-type-2__arrows"></div>
+              <div class="s-slider-type-2__progress-bar-background"></div>
+              <div class="s-slider-type-2__progress-bar sb-element-text-white">
+                <div>
+                  <div></div>
+                </div>
+                <div></div>
+              </div>
+              <div class="s-slider-type-2__list-wrapper js-list-wrapper">
+                <ul class="s-slider-type-2__list js-list">
+                  <li class="s-slider-type-2__slide js-slide">
+                    <div class="s-slider-type-2__slide-content">
+                      <div class="s-slider-type-2__slide-image-wrapper">
+                        <img
+                          class="sb-image-crop sb-image-crop_loaded lazy"
+                          data-src="https://259506.selcdn.ru/sites-static/site663855/e7689dda-a2f1-467e-b0c9-f84810c6e829/e7689dda-a2f1-467e-b0c9-f84810c6e829-3577039.jpeg"
+                          src="data:text/plain,"
+                          alt="Изображение"
+                        />
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        data-type="about"
+        id="about"
+        class="s-about-type-2 sb-text-dark sb-padding-top_m sb-padding-bottom_m"
+      >
+        <link
+          id="about-type-2"
+          rel="stylesheet"
+          href="https://e26f86a1-a349-40e0-9864-90f0278f7cc5.selcdn.net/tb/0.1.470/style/blocks/about-type-2.css"
+        />
+        <div class="sb-background" style="background: #ffffff"></div>
+        <div class="sb-container">
+          <div class="sb-row s-about-type-2__row sb-m-clear-top">
+            <div
+              class="s-about-type-2__text-container sb-col_sm-12 sb-col_xs-12 sb-col_lg-12 sb-col_md-12"
+            >
+              <div class="sb-row sb-m-clear-bottom">
+                <h2
+                  class="sb-col_lg-10 sb-col_md-12 sb-col_sm-12 sb-col_xs-12 sb-font-h2 sb-font-title sb-m-12-bottom"
+                >
+                  Ситуация в мире
+                </h2>
+                <h5
+                  class="sb-col_lg-10 sb-col_md-12 sb-col_sm-12 sb-col_xs-12 sb-align-left sb-font-h5 sb-font-title sb-m-21-bottom"
+                >
+                  По данным Всемирного банка, каждый год на нашей планете
+                  производится более 2 млрд тонн твердых коммунальных отходов. К
+                  2050 году количество отходов на планете должно увеличиться на
+                  70%. Если не начать сортировать отходы и не использовать их
+                  повторно сегодня, то уже через пару десятков лет наша планета
+                  превратится в одну большую свалку.
+                </h5>
+                <div
+                  class="sb-col_lg-10 sb-col_md-12 sb-col_sm-12 sb-col_xs-12 sb-text-opacity sb-font-p3"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        data-type="advantages"
+        id="advantages"
+        class="s-advantages-type-6 sb-text-dark sb-padding-top_m sb-padding-bottom_m"
+      >
+        <link
+          id="advantages-type-6"
+          rel="stylesheet"
+          href="https://e26f86a1-a349-40e0-9864-90f0278f7cc5.selcdn.net/tb/0.1.470/style/blocks/advantages-type-6.css"
+        />
+        <div class="sb-background" style="background: #ffffff"></div>
+        <div class="sb-container sb-m-clear-bottom">
+          <div class="sb-row sb-m-3-bottom">
+            <div class="sb-col_lg-10 sb-col_md-12 sb-col_sm-12 sb-col_xs-12">
+              <h2 class="sb-align-left sb-font-h2 sb-font-title">
+                Почему важно
+                <div>сортировать мусор?</div>
+              </h2>
+            </div>
+          </div>
+          <div class="sb-row">
+            <div
+              class="sb-col_sm-12 sb-col_xs-12 sb-m-clear-top sb-col_lg-12 sb-col_md-12"
+            >
+              <div
+                class="s-advantages-type-6__item sb-p-6-top sb-p-6-bottom sb-m-clear-bottom sb-m-clear-top"
+              >
+                <div
+                  class="s-advantages-type-6__din-number sb-text-additional sb-font-d1"
+                  01.="[object Object]"
+                >
+                  01.
+                </div>
+                <div
+                  class="s-advantages-type-6__text-wrapper sb-m-clear-bottom"
+                >
+                  <h4 class="sb-font-h4 sb-font-title sb-m-18-bottom">
+                    Забота о природе
+                  </h4>
+                  <div class="sb-text-opacity sb-font-p2">
+                    Неотсортированный мусор не попадает в переработку, а гниет
+                    на свалках, тем самым загрязняет землю и океаны, убивает
+                    экосистемы. Загрязненная почва будет очень долго
+                    восстанавливаться – некоторым отходам необходимо несколько
+                    сотен лет для полного разложения.
+                  </div>
+                </div>
+              </div>
+              <div
+                class="s-advantages-type-6__item sb-p-6-top sb-p-6-bottom sb-m-clear-bottom sb-m-clear-top"
+              >
+                <div
+                  class="s-advantages-type-6__din-number sb-text-additional sb-font-d1"
+                  02.="[object Object]"
+                >
+                  02.
+                </div>
+                <div
+                  class="s-advantages-type-6__text-wrapper sb-m-clear-bottom"
+                >
+                  <h4 class="sb-font-h4 sb-font-title sb-m-18-bottom">
+                    Повторное использование<br style="user-select: auto" />
+                  </h4>
+                  <div class="sb-text-opacity sb-font-p2">
+                    Например, ПЭТ-материал (из которого производят пластиковую
+                    упаковку для напитков, и который получают из не
+                    возобновляемого природного ресурса – нефти) можно
+                    перерабатывать вплоть до 30 раз, а стекло перерабатывается
+                    бесконечное количество раз.
+                  </div>
+                </div>
+              </div>
+              <div
+                class="s-advantages-type-6__item sb-p-6-top sb-p-6-bottom sb-m-clear-bottom sb-m-clear-top"
+              >
+                <div
+                  class="s-advantages-type-6__din-number sb-text-additional sb-font-d1"
+                  03.="[object Object]"
+                >
+                  03.
+                </div>
+                <div
+                  class="s-advantages-type-6__text-wrapper sb-m-clear-bottom"
+                >
+                  <h4 class="sb-font-h4 sb-font-title sb-m-18-bottom">
+                    Экономия
+                  </h4>
+                  <div class="sb-text-opacity sb-font-p2">
+                    Чем больше мы сортируем мусора и чем больше старых предметов
+                    отправляем на вторичное использование, тем меньше отходов
+                    остаётся в контейнере и тем меньше надо платить за их вывоз.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        data-type="text"
+        id="text"
+        class="s-text-type-4 sb-text-dark sb-padding-top_s sb-padding-bottom_s"
+      >
+        <link
+          id="text-type-4"
+          rel="stylesheet"
+          href="https://e26f86a1-a349-40e0-9864-90f0278f7cc5.selcdn.net/tb/0.1.470/style/blocks/text-type-4.css"
+        />
+        <div class="sb-background" style="background: #fff"></div>
+        <div class="sb-container">
+          <div class="sb-row sb-m-clear-bottom">
+            <div
+              class="s-text-type-4__line sb-col_lg-10 sb-col_md-12 sb-col_sm-12 sb-col_xs-12"
+            >
+              <h2
+                class="s-text-type-4__title sb-align-left sb-font-h2 sb-font-title sb-m-12-bottom"
+              >
+                Куда сдать мусор в Москве?
+              </h2>
+            </div>
+            <div
+              class="s-text-type-4__column s-text-type-4__line sb-m-14-bottom sb-col_lg-10 sb-col_md-12 sb-col_sm-12 sb-col_xs-12"
+            >
+              <div class="s-text-type-4__wrapper">
+                <div
+                  class="s-text-type-4__description sb-align-left sb-font-p1"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div align="center">
+        <iframe
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3Afa5138cee68df268ee2084451d0624693dd2dbbe7eb5ed1a1ca004e2019c962f&amp;source=constructor"
+          width="700px"
+          height="550px"
+          frameborder="0"
+        ></iframe>
+      </div>
+      <section
+        data-type="text"
+        id="text-2"
+        class="s-text-type-4 sb-text-dark sb-padding-top_s sb-padding-bottom_s"
+      >
+        <link
+          id="text-type-4"
+          rel="stylesheet"
+          href="https://e26f86a1-a349-40e0-9864-90f0278f7cc5.selcdn.net/tb/0.1.470/style/blocks/text-type-4.css"
+        />
+        <div class="sb-background" style="background: #fff"></div>
+        <div class="sb-container">
+          <div class="sb-row sb-m-clear-bottom">
+            <div
+              class="s-text-type-4__line sb-col_lg-10 sb-col_md-12 sb-col_sm-12 sb-col_xs-12"
+            >
+              <h2
+                class="s-text-type-4__title sb-font-title sb-font-h3 sb-m-14-bottom sb-align-Выравнивание текста"
+              ></h2>
+            </div>
+            <div
+              class="s-text-type-4__column s-text-type-4__line sb-m-14-bottom sb-col_lg-10 sb-col_md-12 sb-col_sm-12 sb-col_xs-12"
+            >
+              <div class="s-text-type-4__wrapper">
+                <div
+                  class="s-text-type-4__description sb-align-left sb-font-p1"
+                >
+                  Проектная работа Свирщевского Павла 11Г
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <template id="popups-stash"> </template>
+
+    <template id="popups-images-stash"> </template>
+
+    <script>
+      window.tbConfig = {
+        inFrame: false,
+        enableLazyLoading: true,
+        enableJsLazyLoading: true,
+        enableDynamicGoods: true,
+        isPreviewMode: false,
+        hasPromocodes: false,
+        yandexMapsApiKey: "a9eba83c-b342-4dfe-ab11-2c7cbd6839cb",
+        messengerLink: "",
+        cartHash:
+          "U2FsdGVkX19pM7xyevTiLlkQzcweGMyAIS/RgH1HzwcQALYeAz5nE67feJN3qPKcJxZVtHZOQw2e2pKfP9A4nixvotJHEI4DoAUOT4b9spAeiWra430OKYr0piTe9n2v",
+        staticPath:
+          "https://e26f86a1-a349-40e0-9864-90f0278f7cc5.selcdn.net/tb/0.1.470",
+      };
+      window.tbConfig.isExported = false;
+      window.tbConfig.exportedApiUrl = null;
+      window.tbConfig.apiUrl = !window.tbConfig.isExported
+        ? ""
+        : window.tbConfig.exportedApiUrl;
+      window.tbConfig.isModern = "noModule" in HTMLScriptElement.prototype;
+      var n,
+        o = "chrome" in window,
+        e = "InstallTrigger" in window;
+      function t(n) {
+        var o = document.createElement("script");
+        return (
+          (o.src = "".concat(window.tbConfig.staticPath, "/js/").concat(n)),
+          window.tbConfig.isModern &&
+            ((o.type = "module"), (o.src = o.src.replace(".js", ".modern.js"))),
+          (o.defer = !0),
+          o
+        );
+      }
+      function d(n) {
+        var o = t(n);
+        document.head.appendChild(o);
+      }
+      window.tbConfig.enableLazyLoading && d("lazy-load.js"),
+        "attachShadow" in Element.prototype || d("lit-polyfill-support.js"),
+        d("webcomponents-loader.js"),
+        o || e || d("smoothscroll.js"),
+        (n = t("front.js")),
+        document.addEventListener("DOMContentLoaded", function () {
+          document.head.appendChild(n);
+        });
+    </script>
+
+    <link
+      rel="stylesheet"
+      href="https://e26f86a1-a349-40e0-9864-90f0278f7cc5.selcdn.net/tb/0.1.470/style/size-m.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://e26f86a1-a349-40e0-9864-90f0278f7cc5.selcdn.net/tb/0.1.470/style/popups.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://e26f86a1-a349-40e0-9864-90f0278f7cc5.selcdn.net/tb/0.1.470/style/styles-helpers.css"
+    />
+
+    <section data-type="footer" class="s-footer">
+      <link
+        id="footer"
+        rel="stylesheet"
+        href="https://e26f86a1-a349-40e0-9864-90f0278f7cc5.selcdn.net/tb/0.1.470/style/blocks/footer.css"
+      />
+      <a> </a>
+    </section>
+  </body>
+</html>
